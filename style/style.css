@@ -1,7 +1,3 @@
-body{
-    /* background-color: #e3f2fd; */
-}
-
 .btn-outline-primary {
     font-weight: bold;
     color: #007bff;
@@ -39,10 +35,18 @@ a.contact-me{
     margin-left: 1em;
 }
 
-.jumbotron{
+div.jumbotron{
     background-color: #e3f2fd;
-    height: 25em;
+    height: 30em;
 
+}
+
+div.jumbotron h1.lead{
+    margin-top: 2em;
+    font-family:"eurostile", sans-serif;
+    color: #007bff;
+    text-align: center;
+    font-weight: 700;
 }
 
 #headInfo{
@@ -104,7 +108,7 @@ p.footer-fa{
 
 
 
-@media only screen and (max-width: 319px){
+@media only screen and (max-width: 320px){
     #topNav{
         display: block;
     }
@@ -112,6 +116,12 @@ p.footer-fa{
     #sayHello{
         text-align: left;
     }
+
+    div.jumbotron h1.lead{
+        margin-top: -1em;
+    }
+
+
 }
 
 
@@ -127,6 +137,11 @@ p.footer-fa{
         margin-left: auto !important;
         margin-right: auto !important;
         
+    }
+
+    div.jumbotron h1.lead{
+        margin-top: 1em;
+        font-size: 2em;
     }
 }
 
@@ -144,9 +159,11 @@ p.footer-fa{
         margin-right: 15px !important;
         
     }
-}
 
-@media only screen and (min-width: 768px){
+    div.jumbotron h1.lead{
+        margin-top: 1em;
+        font-size: 2em;
+    }
     .avatar {
         width: auto;
         height: 250px;
