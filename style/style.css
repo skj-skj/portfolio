@@ -1,0 +1,154 @@
+body{
+    /* background-color: #e3f2fd; */
+}
+
+.btn-outline-primary {
+    font-weight: bold;
+    color: #007bff;
+    border-color: #007bff;
+    border-width: 2px;
+    border-radius: 1.5rem;
+    margin-top: 1.5em;
+    
+
+}
+
+.btn-outline-primary:hover {
+    font-weight: bold;
+    background-color: #007bff;
+    color: #ffffff;
+    border-color: #007bff;
+    border-width: 2px;
+    border-radius: 1.5rem;
+    margin-top: 1.5em;
+    
+
+}
+
+#sayHello{
+    text-align: right;
+}
+
+a.btn[href="#contact-me"]{
+    margin-top: 1.7em;
+    font-size: 1.2em;
+}
+
+a.contact-me{
+    margin-top: -0.25em;
+    margin-left: 1em;
+}
+
+.jumbotron{
+    background-color: #e3f2fd;
+    height: 25em;
+
+}
+
+#headInfo{
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #007bff;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: auto;
+    height: 210px;
+    border-radius: 50%;
+  }
+
+ .card{
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.12em solid;
+} 
+
+
+
+p.about-me{
+    text-align: justify;
+}
+
+.card-deck{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social-icon-fa {
+    padding-top: 0.5em;
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 1em;
+  }
+
+.social-icon-fa:hover{
+    text-decoration: none;
+    color: #007bff;
+    background-color: #ffffff;
+}
+
+p.footer-fa{
+    position: relative;
+    top: 0.25em;
+}
+
+
+
+
+@media only screen and (max-width: 319px){
+    #topNav{
+        display: block;
+    }
+
+    #sayHello{
+        text-align: left;
+    }
+}
+
+
+
+@media only screen and (min-width: 575px){
+    .card-deck{
+        display: block;
+    }
+
+    .card{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .card-deck{
+        display: flex;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    .card{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+        
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .avatar {
+        width: auto;
+        height: 250px;
+    }
+}
